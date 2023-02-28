@@ -26,14 +26,14 @@ header :nth-child(1) {
 }
 
 header :nth-child(2) {
-  margin-top: -47px;
+  margin-top: -40px;
 }
 
 /* MAIN */
 .info {
   width: 100%;
   padding-left: 165px;
-  margin-top: -200px;
+  margin-top: -207px;
 }
 
 .info h1 {
