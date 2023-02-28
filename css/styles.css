@@ -8,7 +8,6 @@
 body {
   font-family: ibm plex sans;
   width: 100%;
-  height: 6000px;
   overflow-x: hidden;
 }
 
@@ -40,7 +39,7 @@ header :nth-child(2) {
 .info {
   width: 100%;
   padding-left: 165px;
-  margin-top: -207px;
+  margin-top: -200px;
 }
 
 .info h1 {
@@ -60,3 +59,131 @@ header :nth-child(2) {
   padding-right: 50px;
 }
 
+.main-design {
+  background-color: rgba(25, 24, 38, 1);
+  max-width: 1110px;
+  height: 600px;
+  margin: auto;
+  margin-top: 321px;
+}
+
+
+.bg-pattern2 {
+  margin-left: 336px;
+  margin-top: -50px;
+  position: absolute;
+}
+
+.iphone {
+  width: 312px;
+  position: absolute;
+  margin-left: 102px;
+  margin-top: -225px;
+}
+
+.price-card {
+  width: 446px;
+  height: 625px;
+  background: rgba(250, 116, 83, 1);
+  border-radius: 12px;
+  color: white;
+  margin-left: 569px;
+  position: absolute;
+  margin-top: 90px;
+}
+
+.title {
+  font-size: 40px;
+  padding-top: 58px;
+  margin-left: 54px;
+}
+
+.description {
+  font-size: 20px;
+  line-height: 34px;
+  width: 73%;
+  margin-left: 54px;
+  margin-top: 22px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  margin-left: 54px;
+}
+
+.price :nth-child(1) {
+  font-size: 65px;
+}
+
+.price :nth-child(2) {
+  font-size: 20px;
+}
+
+.ios-download-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(25, 24, 38, 1);
+  color: white;
+  font-family: ibm plex sans;
+  font-size: 18px;
+  width: 333px;
+  height: 61px;
+  border-radius: 12px;
+  margin-left: 54px;
+  border-style: none;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+.ios-download-btn:hover {
+  background-color: rgba(102, 226, 220, 1);
+}
+
+button img {
+  margin-right: 7px;
+}
+
+.android-download-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(252, 250, 249, 1);
+  color: rgba(25, 24, 38, 1);
+  font-family: ibm plex sans;
+  font-size: 18px;
+  font-weight: 700;
+  width: 333px;
+  height: 61px;
+  border-radius: 12px;
+  margin-left: 54px;
+  margin-top: 16px;
+  border-style: none;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+.android-download-btn:hover {
+  background-color: rgba(255, 185, 100, 1);
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 202px;
+  margin-left: 166px;
+  margin-right: 166px;
+}
+
+.social-media-icons :nth-child(2) {
+  margin: 20px;
+}
+
+.social-media-icons img:hover {
+  filter: invert(62%) sepia(14%) saturate(6638%) hue-rotate(326deg) brightness(101%) contrast(96%);
+}
