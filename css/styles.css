@@ -20,6 +20,10 @@ body {
   z-index: -1;
 }
 
+.bg-pattern-alt {
+  display: none;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -66,6 +70,7 @@ header :nth-child(2) {
   height: 600px;
   margin: auto;
   margin-top: 321px;
+  border-radius: 12px;
 }
 
 
@@ -183,7 +188,7 @@ footer {
   margin-top: 202px;
   margin-left: 166px;
   margin-right: 166px;
-  margin-bottom: 96px;
+  margin-bottom: 98px;
 }
 
 footer p {
@@ -200,4 +205,196 @@ footer p {
 
 .social-media-icons img:hover {
   filter: invert(62%) sepia(14%) saturate(6638%) hue-rotate(326deg) brightness(101%) contrast(96%);
+}
+
+.two {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+
+  }
+
+  .bg-pattern {
+    display: none;
+  }
+
+  header {
+    justify-content: space-between;
+  }
+
+  header :nth-child(1) {
+    width: 147px;
+    height: 32px;
+    margin-top: 62px;
+    margin-left: 39px;
+  }
+
+  header :nth-child(2) {
+    width: 267px;
+    height: 400px;
+  }
+
+  .info {
+    padding-left: 39px;
+  }
+
+  .info h1 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+
+  .info p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 28px;
+    width: 77%;
+  }
+
+  .main-design {
+    max-width: 696px;
+    margin-top: 249px;
+  }
+
+  .bg-pattern2 {
+    margin-left: 229px;
+  }
+
+  .iphone {
+    margin-left: 64px;
+    width: 271px;
+    margin-top: -150px;
+  }
+
+  .price-card {
+    width: 399px;
+    height: 546px;
+    margin-left: 239px;
+    margin-top: 150px;
+  }
+
+  .title {
+    font-size: 32px;
+    padding-top: 48px;
+    margin-left: 48px;
+  }
+
+  .description {
+    font-size: 17px;
+    line-height: 28px;
+    margin-left: 48px;
+    margin-top: 12px;
+
+  }
+
+  .price {
+    margin-top: 18px;
+  }
+
+  .ios-download-btn, .android-download-btn {
+    width: 296px;
+  }
+
+  footer {
+    margin-right: 39px;
+    margin-left: 33px;
+    display: flex;
+  }
+
+  .social-media-icons {
+    display: inline-block;
+    margin-top: 60px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .two {
+    display: block;
+  }
+
+  .bg-pattern-alt {
+    display: block;
+    max-width: 768px;
+    position: absolute;
+    z-index: -1;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .bg-pattern-alt {
+    display: none;
+  }
+
+  header :nth-child(2) {
+    display: none;
+  }
+
+  header :nth-child(1) {
+    margin-left: 24px;
+  }
+
+  .info {
+    margin-top: 0;
+    padding-left: 24px;
+  }
+
+  .info h1 {
+    font-size: 40px;
+    line-height: 48px;
+    width: 80%;
+    margin-top: 64px;
+  }
+
+  .info p {
+    font-size: 16px;
+    line-height: 26px;
+    width: 85%;
+    padding-right: 0;
+  }
+
+  .bg-pattern2 {
+    margin-left: 48px;
+    width: 70%;
+    margin-top: 0;
+  }
+
+  .iphone {
+    width: 209px;
+    margin-left: 80px;
+  }
+
+  .main-design {
+    max-width: 375px;
+    margin-left: 0;
+  }
+
+  .price-card {
+    width: 375px;
+    margin-left: 0;
+    margin-top: 380px;
+  }
+
+  footer {
+    padding-top: 200px;
+  }
+
+  .logo {
+    display: block;
+  }
+
+  .two {
+    display: none;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  footer p {
+    margin: 0;
+  }
 }
