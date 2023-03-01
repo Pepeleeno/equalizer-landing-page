@@ -111,6 +111,7 @@ header :nth-child(2) {
   display: flex;
   align-items: center;
   margin-left: 54px;
+  margin-top: 39px;
 }
 
 .price :nth-child(1) {
@@ -130,6 +131,7 @@ header :nth-child(2) {
   color: white;
   font-family: ibm plex sans;
   font-size: 18px;
+  font-weight: 700;
   width: 333px;
   height: 61px;
   border-radius: 12px;
@@ -137,7 +139,7 @@ header :nth-child(2) {
   border-style: none;
   cursor: pointer;
   transition: background-color 0.25s;
-  margin-top: 46px;
+  margin-top: 15px;
 }
 
 .ios-download-btn:hover {
